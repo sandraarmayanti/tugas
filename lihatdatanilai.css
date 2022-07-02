@@ -1,0 +1,140 @@
+
+
+@font-face {
+    font-family: "Vice";
+    src: url('Assets/ViceCitySans.otf');
+    }
+@font-face {
+    font-family: "Rock";
+    src: url('Assets/RockfordSans-Light.otf');
+    }
+    @font-face {
+        font-family: "Agresif";
+        src: url('Assets/AGRESSIVE.otf');
+        }
+
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1528731708534-816fe59f90cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+}
+
+header {
+    height: auto;
+    width: auto;
+    background-color: #0C87F2;
+    background-size: cover;
+    color: white;                       
+    font-family: Vice;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px; 
+}
+
+
+.aside1 {
+    width: auto;
+    float: right;
+    margin: -10px 10px 10px 0px;
+    padding: 5px;
+    margin-top: 55px;
+    margin-right: -5px;
+}
+
+
+nav{
+    clear: both;
+    color: #d3e4cd;
+    background-color: #081526;
+    padding-top: -100px;
+    height: 40px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 10px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a {
+    color: white;
+    font-family: Vice;
+}
+
+nav li a:hover, nav li a.current {
+    color: orangered;
+}
+
+.tombol {
+    width: 260px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+	color: black;
+	font-family: Rock;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.konten1{
+	height: auto;
+	width: auto;
+	padding: 10px;
+	z-index: 2;
+    font-family: Rock;
+    border-radius: 2px;
+    margin-top: -15px;
+}
+
+footer {
+    clear: both;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+.asidefooter1{
+    width: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.footer1{
+    float: left;
+    max-width: 2000px;
+    margin: 10px 5px 10px 5px;
+    padding: 10px;
+    width: 400px;
+    font-family: Vice;
+}
+
+.footer2{
+    float: left;
+    max-width: 2000px;
+    margin: 10px 5px 10px 5px;
+    margin-top: -0.4em;
+    padding: 10px;
+    width: 450px;
+    border-right: 2px solid white;
+    font-family: Vice;
+}
+
+.footer3{
+    float: right;
+    max-width: 2000px;
+    margin: 10px 5px 10px 5px;
+    padding: 10px;
+    width: 400px;
+    margin-right: -0.5em;
+    margin-top: -130px;
+    font-family: Agresif;
+    text-align: center;
+}

@@ -1,0 +1,257 @@
+
+    @font-face {
+        font-family: "Vice";
+        src: url('Assets/ViceCitySans.otf');
+        }
+    @font-face {
+        font-family: "Rock";
+        src: url('Assets/RockfordSans-Light.otf');
+        }
+        @font-face {
+            font-family: "Agresif";
+            src: url('Assets/AGRESSIVE.otf');
+            }
+
+
+    body {
+        background-image: url(https://images.unsplash.com/photo-1528731708534-816fe59f90cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+        background-size: cover;
+    }
+    
+    header {
+        height: auto;
+        width: auto;
+        background-color: #0C87F2;
+        background-size: cover;
+        color: white;                       
+        font-family: Vice;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 30px; 
+    }
+
+
+    .aside1 {
+        width: auto;
+        float: right;
+        margin: -10px 10px 10px 0px;
+        padding: 5px;
+        margin-top: 55px;
+        margin-right: -5px;
+    }
+
+
+    nav{
+        clear: both;
+        color: #d3e4cd;
+        background-color: #081526;
+        padding-top: -100px;
+        height: 40px;
+    }
+
+    nav ul {
+        margin: 0px;
+        padding: 10px 0px 5px 30px;
+    }
+    
+    nav li {
+        display: inline;
+        margin-right: 40px;
+    }
+    
+    nav li a {
+        color: white;
+        font-family: Vice;
+    }
+    
+    nav li a:hover, nav li a.current {
+        color: orangered;
+    }
+
+    .slider{
+        margin: 2px 1px 2px 1px;
+        padding: 5px;
+        background-size: auto;
+        background-position: center;
+    }
+
+    .artikel {
+        font-size: 1.2em;
+        margin-left: 8px;
+        margin-right: 8px;
+        text-align: justify;
+        border-bottom: 0.2px solid #666666;
+        font-family: Rock;
+    }
+
+    .konten {
+        margin:0 5px 1em 0;
+        padding:8px;
+        float:left;
+        width: 410px;
+        font-family: Rock;
+        border-left: 2px solid #666666;
+        border-right: 2px solid #666666;
+    }
+
+    .sliderkonten1{
+        margin: 1px 1px 1px 1px;
+        padding: 3px;
+        background-size: auto;
+        background-position: center;
+    }
+    
+    .artikel1{
+        font-size: 1em;
+        color:#000000;
+    }
+    
+    hgroup {
+        margin-top: 5px;
+    }
+
+    .konten2 {
+        margin:0 14px 1em 14px;
+        padding:8px;
+        float:left;
+        width: 410px;
+        font-family: Rock;
+        border-right: 2px solid #666666;
+    }
+
+    .sliderkonten2{
+        margin: 1px 1px 1px 1px;
+        padding: 3px;
+        background-size: auto;
+        background-position: center;
+    }
+    
+    .artikel2{
+        font-size: 1em;
+        color:#000000;
+    }
+
+    .konten3 {
+        margin:0 0 1em 5px;
+        padding:8px;
+        float:left;
+        width:410px;
+        font-family: Rock;
+        border-right: 2px solid #666666;
+    }
+
+    .sliderkonten3{
+        margin: 1px 1px 1px 1px;
+        padding: 3px;
+        background-size: auto;
+        background-position: center;
+    }
+    
+    .artikel3{
+        font-size: 1em;
+        color:#000000;
+    }
+
+    .konten4 {
+        float: left;
+        margin: 15px auto;
+        margin-left: 30px;
+        width: 48%;
+    }
+    
+    .artikel4 {
+        float: left;
+        max-width: 4000px;
+        margin: 10px 5px 10px 5px;
+        padding: 10px;
+        font-family: Rock;
+        
+    }
+
+    .konten5 {
+        float: left;
+        margin: 10px auto;
+        margin-right: -50px;
+        width: 48%;
+    }
+    
+    .artikel5 {
+        float: left;
+        max-width: 4000px;
+        margin: 10px 5px 10px 5px;
+        padding: 10px;
+        font-family: Rock;
+        
+    }
+
+    .konten6 {
+        margin:0 5px 1em 0;
+        padding:8px;
+        width:98%;
+        height: 340px;
+        float:left;
+        background-color: black;
+        font-family: Rock;
+    }
+
+    .artikel6 {
+        float: left;
+        font-size: 1em;
+        color: white;
+        width: 50%;
+        margin: 10px 5px 10px 5px;
+    }
+
+    .imagekonten6 {
+        float: right;
+        width: 50%;
+        margin-right: -14em;
+        margin-top: -1em;
+    }
+
+    footer {
+        clear: both;
+        overflow: hidden;
+        background-color: black;
+        color: white;
+        width: auto;
+        height: auto;
+    }
+    
+    .asidefooter1{
+        width: 20px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .footer1{
+        float: left;
+        max-width: 2000px;
+        margin: 10px 5px 10px 5px;
+        padding: 10px;
+        width: 400px;
+        font-family: Vice;
+    }
+
+    .footer2{
+        float: left;
+        max-width: 2000px;
+        margin: 10px 5px 10px 5px;
+        margin-top: -0.4em;
+        padding: 10px;
+        width: 450px;
+        border-right: 2px solid white;
+        font-family: Vice;
+    }
+
+    .footer3{
+        float: right;
+        max-width: 2000px;
+        margin: 10px 5px 10px 5px;
+        padding: 10px;
+        width: 400px;
+        margin-right: -0.5em;
+        margin-top: 20px;
+        font-family: Agresif;
+        text-align: center;
+    }

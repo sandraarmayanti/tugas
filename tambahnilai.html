@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Find Your Place To Stay Overnight </title>
+    <link rel="stylesheet" type="text/css" href="tambahnilai.css">
+    <link href="Logo HSR.png" rel="shortcut icon">
+
+
+</head>
+<body>
+    
+    <div class="main">
+
+        <header>
+        
+            <img src="Assets/Logo HSR.png" width="160px" height="130px" style="margin-top: 10px;">
+            
+
+            
+            <aside class="aside1">
+                <section class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="daftar.html"> Daftar </a></li>
+                            <li><a href="lihatdatanilai.php"> Lihat Penilaian </a></li>
+                            <li><a href="index.html"> Kembali </a></li>
+                            <li><a href="login.html"> Logout </a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </aside>
+        
+
+        </header>
+
+    <div class="tab"> 
+    <div class="konten1"> 
+
+        <form action="tambahnilai.php" method="POST">
+            
+        <label> Nama Lengkap Anda <br></label> <input type="text" name="namapenilai" required placeholder="Nama Lengkap Anda"><br>
+
+        <label> Nama Hotel : <br></label> <input type="text" name="namahotel" required placeholder="Nama Hotel yang akan di Rating"><br>
+
+        <label> Lokasi Hotel : <br></label> <input type="text" name="lokasihotel" required placeholder="Alamat Lengkap Hotel"><br>
+
+        <label> Kriteria Unggulan Hotel: </label> <br>
+                            <input type="checkbox" name="kriteria" value="Harga"> Harga <br> 
+                            <input type="checkbox" name="kriteria" value="Pelayanan"> Pelayanan <br> 
+                            <input type="checkbox" name="kriteria" value="Kebersihan"> Kebersihan <br>
+                            <input type="checkbox" name="kriteria" value="Fasilitas"> Fasilitas <br>
+         
+        <label> Penilaian Anda </label> <select name="penilaian" id=" " required>
+                            <option value=" ">  </option>
+                            <option value="Sangat Bagus"> Sangat Bagus </option>
+                            <option value="Memuaskan"> Memuaskan </option>
+                            <option value="Biasa"> Biasa </option>
+                            <option value="Buruk"> Buruk </option>
+                            </select> <br>
+
+
+        <label> Ulasan Anda : <br></label> <input type="text" name="ulasan" required placeholder=" Isi Ulasan "><br>
+
+        <input type="submit" name="Login" value="Simpan">
+    </tr>
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+
+
+    <footer>
+        <aside class="asidefooter1"> 
+        <div class="footer1">
+    
+            <p> <br> 
+                Copyright © Est.2020 Ltd. All Rights Reserved. </p>
+            
+        </div>
+        </aside>
+    
+        <aside class="asidefooter2"> 
+            <div class="footer2">
+        
+                <p> Contact Us! <br>
+                    <br>
+                    Email : homestayrating@gmail.com <br>
+                    <br>
+                    Hotline : +021 456 789 </p>
+                
+            </div>
+            </aside>
+    
+        <aside class="asidefooter3"> 
+            <div class="footer3">
+            
+                <p> HomeStay Rating <br>
+                    Website </p>
+                    
+            </div>
+            </aside>
+    
+
+
+</body>
+</html>
